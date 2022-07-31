@@ -34,7 +34,7 @@ final class WeatherViewModel {
                 self?.group.leave()
             } errorCompletion: { error in
                 self.weathers.value = nil
-                self?.group.leave()
+                self.group.leave()
             }
         }
         
