@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="DarioHealthDemo" customModuleProvider="target">
             <connections>
+                <outlet property="metricLabel" destination="YrF-95-MSn" id="OQV-Qf-kDb"/>
                 <outlet property="searchBar" destination="fvt-Yh-WUr" id="4v8-cO-vcQ"/>
                 <outlet property="switchButton" destination="d5L-bs-bCq" id="ctN-jL-q5a"/>
                 <outlet property="tableView" destination="Tys-1t-OfL" id="CUe-ir-nOf"/>

@@ -14,6 +14,7 @@ final class MainViewController: UIViewController {
     @IBOutlet weak private var tableView: UITableView!
     @IBOutlet weak private var searchBar: UISearchBar!
     @IBOutlet weak private var switchButton: UISwitch!
+    @IBOutlet weak private var metricLabel: UILabel!
     
     
     // MARK: - Private variables
@@ -87,8 +88,10 @@ extension MainViewController {
         }
         
         self.viewModel.isImperial.bind { value in
+            guard let value = value else { return }
             mainThread {
                 self.tableView.reloadSections(IndexSet(integer: 0), with: .fade)
+                self.metricLabel.text = value ? "Imperial" : "Metric"
             }
         }
     }
