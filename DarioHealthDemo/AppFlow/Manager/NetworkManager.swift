@@ -9,13 +9,40 @@ import UIKit
 
 
 final class NetworkManager {
+    
     static let shared = NetworkManager()
     private init() {}
     
-    func LoadCurrentWeather<T: Decodable>(model: T.Type, url: String,
+    private func runTask<T: Decodable>(with request: URLRequest,
+                                       model: T.Type,
+                                       key: String? = nil,
+                                       completion: ((T) -> Void)?,
+                                       errorCompletion: ((Error?) -> Void)?) {
+        
+        URLSession.shared.dataTask(with: request) { data, response, error in
+            if let data = data {
+                if key == nil {
+                    if let response = try? JSONDecoder().decode(model, from: data) {
+                        completion?(response)
+                        return
+                    }
+                } else {
+                    if let response = try? JSONDecoder().decode(model, from: data, keyPath: key ?? "") {
+                        completion?(response)
+                        return
+                    }
+                }
+            }
+            errorCompletion?(error)
+            print("Fetch failed: \(error?.localizedDescription ?? "Unknown error")")
+        }
+        .resume()
+    }
+    
+    func loadCurrentWeather<T: Decodable>(model: T.Type, url: String,
                                           completion: ((T) -> Void)?,
                                           errorCompletion: ((Error?) -> Void)?) {
-
+        
         var urlComponent = URLComponents()
         urlComponent.scheme = "https"
         urlComponent.host = "api.openweathermap.org"
@@ -29,22 +56,16 @@ final class NetworkManager {
             print("Invalid URL")
             return
         }
-
+        
         let request = URLRequest(url: url)
-        URLSession.shared.dataTask(with: request) { data, response, error in
-            if let data = data {
-                if let response = try? JSONDecoder().decode(model, from: data) {
-                    completion?(response)
-                    return
-                }
-            }
+        runTask(with: request, model: model) { response in
+            completion?(response)
+        } errorCompletion: { error in
             errorCompletion?(error)
-            print("Fetch failed: \(error?.localizedDescription ?? "Unknown error")")
         }
-        .resume()
     }
     
-    func LoadWeatherList<T: Decodable>(model: T.Type, lon: Double,
+    func loadWeatherList<T: Decodable>(model: T.Type, lon: Double,
                                        lat: Double,
                                        completion: ((T) -> Void)?,
                                        errorCompletion: ((Error?) -> Void)?) {
@@ -63,18 +84,12 @@ final class NetworkManager {
             print("Invalid URL")
             return
         }
-
+        
         let request = URLRequest(url: url)
-        URLSession.shared.dataTask(with: request) { data, response, error in
-            if let data = data {
-                if let response = try? JSONDecoder().decode(model, from: data, keyPath: "list") {
-                    completion?(response)
-                    return
-                }
-            }
+        runTask(with: request, model: model, key: "list") { response in
+            completion?(response)
+        } errorCompletion: { error in
             errorCompletion?(error)
-            print("Fetch failed: \(error?.localizedDescription ?? "Unknown error")")
         }
-        .resume()
     }
 }

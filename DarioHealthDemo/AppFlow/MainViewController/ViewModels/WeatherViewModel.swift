@@ -29,7 +29,8 @@ final class WeatherViewModel {
         
         for city in cities {
             group.enter()
-            NetworkManager.shared.LoadCurrentWeather(model: CurrentWeather.self, url: city) { [weak self] weather in
+            NetworkManager.shared.loadCurrentWeather(model: CurrentWeather.self,
+                                                     url: city) { [weak self] weather in
                 self?.data.append(weather)
                 self?.group.leave()
             } errorCompletion: { error in
