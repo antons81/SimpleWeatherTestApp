@@ -7,11 +7,27 @@
 
 import UIKit
 
+enum EndPoints {
+    case weather
+    case forecast
+}
+
+extension EndPoints {
+    var endPoint: String {
+        switch self {
+        case .weather: return "/data/2.5/weather"
+        case .forecast: return "/data/2.5/forecast"
+        }
+    }
+}
+
 
 final class NetworkManager {
     
     static let shared = NetworkManager()
     private init() {}
+    
+    static private let host = "api.openweathermap.org"
     
     private func runTask<T: Decodable>(with request: URLRequest,
                                        model: T.Type,
@@ -45,8 +61,8 @@ final class NetworkManager {
         
         var urlComponent = URLComponents()
         urlComponent.scheme = "https"
-        urlComponent.host = "api.openweathermap.org"
-        urlComponent.path = "/data/2.5/weather"
+        urlComponent.host = NetworkManager.host
+        urlComponent.path = EndPoints.weather.endPoint
         urlComponent.queryItems = [
             URLQueryItem(name: "q", value: url),
             URLQueryItem(name: "appid", value: "0cd74bf29e43ef1ad6afd6861cc99eb2")
@@ -65,15 +81,16 @@ final class NetworkManager {
         }
     }
     
-    func loadWeatherList<T: Decodable>(model: T.Type, lon: Double,
+    func loadWeatherList<T: Decodable>(model: T.Type,
+                                       lon: Double,
                                        lat: Double,
                                        completion: ((T) -> Void)?,
                                        errorCompletion: ((Error?) -> Void)?) {
         
         var urlComponent = URLComponents()
         urlComponent.scheme = "https"
-        urlComponent.host = "api.openweathermap.org"
-        urlComponent.path = "/data/2.5/forecast"
+        urlComponent.host = NetworkManager.host
+        urlComponent.path = EndPoints.forecast.endPoint
         urlComponent.queryItems = [
             URLQueryItem(name: "lon", value: String(lon)),
             URLQueryItem(name: "lat", value: String(lat)),
