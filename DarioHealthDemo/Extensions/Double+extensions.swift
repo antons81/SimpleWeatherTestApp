@@ -29,6 +29,10 @@ extension Double {
     var formatToInt: Int {
         return Int(self)
     }
+    
+    var toString: String {
+        return String(self)
+    }
 }
 
 extension Double {

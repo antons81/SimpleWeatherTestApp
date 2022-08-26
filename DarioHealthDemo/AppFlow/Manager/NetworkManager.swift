@@ -92,8 +92,8 @@ final class NetworkManager {
         urlComponent.host = NetworkManager.host
         urlComponent.path = EndPoints.forecast.endPoint
         urlComponent.queryItems = [
-            URLQueryItem(name: "lon", value: String(lon)),
-            URLQueryItem(name: "lat", value: String(lat)),
+            URLQueryItem(name: "lon", value: lon.toString),
+            URLQueryItem(name: "lat", value: lat.toString),
             URLQueryItem(name: "appid", value: "0cd74bf29e43ef1ad6afd6861cc99eb2")
         ]
         
