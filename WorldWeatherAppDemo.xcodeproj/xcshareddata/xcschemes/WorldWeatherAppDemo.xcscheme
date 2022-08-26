@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7F7C534F9C9B742B0B3FF259FA452C56"
-               BuildableName = "Pods_DarioHealthDemo.framework"
-               BlueprintName = "Pods-DarioHealthDemo"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "1E930832288C985F00278FC2"
+               BuildableName = "WorldWeatherAppDemo.app"
+               BlueprintName = "WorldWeatherAppDemo"
+               ReferencedContainer = "container:WorldWeatherAppDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,6 +40,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1E930832288C985F00278FC2"
+            BuildableName = "WorldWeatherAppDemo.app"
+            BlueprintName = "WorldWeatherAppDemo"
+            ReferencedContainer = "container:WorldWeatherAppDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -47,6 +57,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1E930832288C985F00278FC2"
+            BuildableName = "WorldWeatherAppDemo.app"
+            BlueprintName = "WorldWeatherAppDemo"
+            ReferencedContainer = "container:WorldWeatherAppDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

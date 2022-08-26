@@ -35,11 +35,11 @@
 		1E9308E7288C98E800278FC2 /* JSONDecodable+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E93088D288C98E800278FC2 /* JSONDecodable+extensions.swift */; };
 		1E9308E8288C98E800278FC2 /* Data+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E93088E288C98E800278FC2 /* Data+extensions.swift */; };
 		1E9308E9288C98E800278FC2 /* Double+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E93088F288C98E800278FC2 /* Double+extensions.swift */; };
-		44C734E71DF79076A619C6DE /* Pods_DarioHealthDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1132279AD8D7D9C2609813D7 /* Pods_DarioHealthDemo.framework */; };
+		3DFB4D9E43C1AD72B32F677A /* Pods_WorldWeatherAppDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 648129DABB7830553C9BD1AF /* Pods_WorldWeatherAppDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1132279AD8D7D9C2609813D7 /* Pods_DarioHealthDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarioHealthDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B37A93D5F4D5A534EF1E9A /* Pods-WorldWeatherAppDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldWeatherAppDemo.debug.xcconfig"; path = "Target Support Files/Pods-WorldWeatherAppDemo/Pods-WorldWeatherAppDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		1E788F51288D81F900B8B768 /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
 		1E788F53288D838600B8B768 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 		1E788F55288D88EC00B8B768 /* CurrentWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherModel.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		1E788F702890201A00B8B768 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		1E788F722890360800B8B768 /* DailyWeatherViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DailyWeatherViewController.xib; sourceTree = "<group>"; };
 		1E788F742890390300B8B768 /* DailyWeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherViewController.swift; sourceTree = "<group>"; };
-		1E930833288C985F00278FC2 /* DarioHealthDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarioHealthDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E930833288C985F00278FC2 /* WorldWeatherAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldWeatherAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E930836288C985F00278FC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E93083A288C985F00278FC2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1E93083F288C985F00278FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -70,8 +70,8 @@
 		1E93088D288C98E800278FC2 /* JSONDecodable+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSONDecodable+extensions.swift"; sourceTree = "<group>"; };
 		1E93088E288C98E800278FC2 /* Data+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+extensions.swift"; sourceTree = "<group>"; };
 		1E93088F288C98E800278FC2 /* Double+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+extensions.swift"; sourceTree = "<group>"; };
-		21EAE6D0D832F7E4382F6126 /* Pods-DarioHealthDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarioHealthDemo.debug.xcconfig"; path = "Target Support Files/Pods-DarioHealthDemo/Pods-DarioHealthDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		A5717DA4A5D3D18030B15318 /* Pods-DarioHealthDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarioHealthDemo.release.xcconfig"; path = "Target Support Files/Pods-DarioHealthDemo/Pods-DarioHealthDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4F4A91F2EE2CDA8FD8205A09 /* Pods-WorldWeatherAppDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldWeatherAppDemo.release.xcconfig"; path = "Target Support Files/Pods-WorldWeatherAppDemo/Pods-WorldWeatherAppDemo.release.xcconfig"; sourceTree = "<group>"; };
+		648129DABB7830553C9BD1AF /* Pods_WorldWeatherAppDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldWeatherAppDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44C734E71DF79076A619C6DE /* Pods_DarioHealthDemo.framework in Frameworks */,
+				3DFB4D9E43C1AD72B32F677A /* Pods_WorldWeatherAppDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +157,7 @@
 		1E93082A288C985F00278FC2 = {
 			isa = PBXGroup;
 			children = (
-				1E930835288C985F00278FC2 /* DarioHealthDemo */,
+				1E930835288C985F00278FC2 /* WorldWeatherAppDemo */,
 				1E930834288C985F00278FC2 /* Products */,
 				5BF5A1B381E58900B6CF9B50 /* Pods */,
 				56780F1825F2D1258F2C837D /* Frameworks */,
@@ -167,12 +167,12 @@
 		1E930834288C985F00278FC2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1E930833288C985F00278FC2 /* DarioHealthDemo.app */,
+				1E930833288C985F00278FC2 /* WorldWeatherAppDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1E930835288C985F00278FC2 /* DarioHealthDemo */ = {
+		1E930835288C985F00278FC2 /* WorldWeatherAppDemo */ = {
 			isa = PBXGroup;
 			children = (
 				1E93084A288C987F00278FC2 /* AppDelegate */,
@@ -183,7 +183,7 @@
 				1E930841288C985F00278FC2 /* LaunchScreen.storyboard */,
 				1E930844288C985F00278FC2 /* Info.plist */,
 			);
-			path = DarioHealthDemo;
+			path = WorldWeatherAppDemo;
 			sourceTree = "<group>";
 		};
 		1E93084A288C987F00278FC2 /* AppDelegate */ = {
@@ -255,7 +255,7 @@
 		56780F1825F2D1258F2C837D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1132279AD8D7D9C2609813D7 /* Pods_DarioHealthDemo.framework */,
+				648129DABB7830553C9BD1AF /* Pods_WorldWeatherAppDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -263,8 +263,8 @@
 		5BF5A1B381E58900B6CF9B50 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				21EAE6D0D832F7E4382F6126 /* Pods-DarioHealthDemo.debug.xcconfig */,
-				A5717DA4A5D3D18030B15318 /* Pods-DarioHealthDemo.release.xcconfig */,
+				14B37A93D5F4D5A534EF1E9A /* Pods-WorldWeatherAppDemo.debug.xcconfig */,
+				4F4A91F2EE2CDA8FD8205A09 /* Pods-WorldWeatherAppDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -272,9 +272,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1E930832288C985F00278FC2 /* DarioHealthDemo */ = {
+		1E930832288C985F00278FC2 /* WorldWeatherAppDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E930847288C985F00278FC2 /* Build configuration list for PBXNativeTarget "DarioHealthDemo" */;
+			buildConfigurationList = 1E930847288C985F00278FC2 /* Build configuration list for PBXNativeTarget "WorldWeatherAppDemo" */;
 			buildPhases = (
 				75E291417026CAD6D5A2D9D5 /* [CP] Check Pods Manifest.lock */,
 				1E93082F288C985F00278FC2 /* Sources */,
@@ -286,9 +286,9 @@
 			);
 			dependencies = (
 			);
-			name = DarioHealthDemo;
+			name = WorldWeatherAppDemo;
 			productName = DarioHealthDemo;
-			productReference = 1E930833288C985F00278FC2 /* DarioHealthDemo.app */;
+			productReference = 1E930833288C985F00278FC2 /* WorldWeatherAppDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -306,7 +306,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1E93082E288C985F00278FC2 /* Build configuration list for PBXProject "DarioHealthDemo" */;
+			buildConfigurationList = 1E93082E288C985F00278FC2 /* Build configuration list for PBXProject "WorldWeatherAppDemo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -319,7 +319,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1E930832288C985F00278FC2 /* DarioHealthDemo */,
+				1E930832288C985F00278FC2 /* WorldWeatherAppDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -346,15 +346,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DarioHealthDemo/Pods-DarioHealthDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WorldWeatherAppDemo/Pods-WorldWeatherAppDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DarioHealthDemo/Pods-DarioHealthDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WorldWeatherAppDemo/Pods-WorldWeatherAppDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DarioHealthDemo/Pods-DarioHealthDemo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorldWeatherAppDemo/Pods-WorldWeatherAppDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		75E291417026CAD6D5A2D9D5 /* [CP] Check Pods Manifest.lock */ = {
@@ -372,7 +372,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DarioHealthDemo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WorldWeatherAppDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -542,7 +542,7 @@
 		};
 		1E930848288C985F00278FC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21EAE6D0D832F7E4382F6126 /* Pods-DarioHealthDemo.debug.xcconfig */;
+			baseConfigurationReference = 14B37A93D5F4D5A534EF1E9A /* Pods-WorldWeatherAppDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -551,8 +551,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S9676DF7C4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DarioHealthDemo/Info.plist;
+				INFOPLIST_FILE = WorldWeatherAppDemo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Simple Weather";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -562,7 +563,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.DarioHealthDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.WorldWeatherAppDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -573,7 +574,7 @@
 		};
 		1E930849288C985F00278FC2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5717DA4A5D3D18030B15318 /* Pods-DarioHealthDemo.release.xcconfig */;
+			baseConfigurationReference = 4F4A91F2EE2CDA8FD8205A09 /* Pods-WorldWeatherAppDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -582,8 +583,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S9676DF7C4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DarioHealthDemo/Info.plist;
+				INFOPLIST_FILE = WorldWeatherAppDemo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Simple Weather";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -593,7 +595,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.DarioHealthDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.WorldWeatherAppDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -605,7 +607,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E93082E288C985F00278FC2 /* Build configuration list for PBXProject "DarioHealthDemo" */ = {
+		1E93082E288C985F00278FC2 /* Build configuration list for PBXProject "WorldWeatherAppDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E930845288C985F00278FC2 /* Debug */,
@@ -614,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1E930847288C985F00278FC2 /* Build configuration list for PBXNativeTarget "DarioHealthDemo" */ = {
+		1E930847288C985F00278FC2 /* Build configuration list for PBXNativeTarget "WorldWeatherAppDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E930848288C985F00278FC2 /* Debug */,

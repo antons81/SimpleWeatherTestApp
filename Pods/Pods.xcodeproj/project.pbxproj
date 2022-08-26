@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		0231BF88DE78D1AF701640162F641EF1 /* KRActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A99A4E9B3D5464F2EB052185AE0DB92 /* KRActivityIndicatorView.swift */; };
+		16F1935DCCFDD55566A0BDD515A3F507 /* Pods-WorldWeatherAppDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C675F44F1CE7B8C65D8512BECBDF315D /* Pods-WorldWeatherAppDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		227F575C7A4BA4B60D7CED084C9B4A3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		32DAFD5267320A0E445C44D5B0A8A3E6 /* KRActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EB08ED54AEB1E3E9E26E519621F36F /* KRActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BF5CE60210BA63B24F47DA85DB6D541 /* KRProgressHUDIconType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C75CEB32604D90628A8BADDC47196FB /* KRProgressHUDIconType.swift */; };
 		5EDD32C82B9EE160E6615CEAEFCA1A15 /* KRProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F54FCEBD5646F9209D22D0FEA9419E /* KRProgressHUD.swift */; };
 		664296435583DFE0E7F51D03A05D5E46 /* KRActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 414BB8BB79A61C51CA21252C85CF4443 /* KRActivityIndicatorView-dummy.m */; };
-		6813F19D644422E38F3B30A649AE2202 /* Pods-DarioHealthDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4654E3C6482FDC8432E6D9513D34A41D /* Pods-DarioHealthDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B527DB69280CF80AABF664A88202E84 /* KRProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E70566F6AA938658E7C92C8C57250D07 /* KRProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A59645A7884F87BA5BF6AB93E688901B /* InnerKRProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B122525E27BFF2D769E6EE8C8422D05 /* InnerKRProgressHUD.swift */; };
-		BC8689F77DEDDD43C6EFA5FD9DAF67D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BB22C22CA8FADC838CE178998B492EFA /* Pods-WorldWeatherAppDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53453D96B6A921B3A3A8F48CDB6D40 /* Pods-WorldWeatherAppDemo-dummy.m */; };
+		C04C33A09466F19D1F5767F6BC08DD73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C21ED0B4C9C617089241298BB41D2BF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		DFB95248137010B96366E1E49B8221CE /* KRActivityIndicatorViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C4BB58463995636C6627189C7A8E6B /* KRActivityIndicatorViewStyle.swift */; };
 		E5734FE2E4663F4C9E7ED8CECC38D2F2 /* KRProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC97E841C6BD042A7B9A9E6422CD64A /* KRProgressHUD-dummy.m */; };
 		EA9307BFC6EC7DB48CC7944D87102096 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560A1D20048DDD783FCE6ECB69F6089E /* Extensions.swift */; };
-		EE24C89F79383DEF116A47F4C17E6196 /* Pods-DarioHealthDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9491088AD0BCB611269297BDA5364F /* Pods-DarioHealthDemo-dummy.m */; };
 		EE468DF777E82A8AB41ED7D7289B9B9C /* KRProgressHUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6CDAF6BD46393D72B841F65C12FC7D /* KRProgressHUDViewController.swift */; };
 		F5C7CECF1E3E73AFEC9547F5AAA24730 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB993BB47D9687A3C1D6237069B52F4 /* Extensions.swift */; };
 /* End PBXBuildFile section */
@@ -34,14 +34,14 @@
 			remoteGlobalIDString = 4F7A1E5A05AF87570E2873C5F725E2CB;
 			remoteInfo = KRActivityIndicatorView;
 		};
-		1BE096D73BE9CDC21DA9E6F5C606702F /* PBXContainerItemProxy */ = {
+		5C60B1172AB6CDFADC91003315EBEB89 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BA4681533D6AA601F9C9E2A116B7472C;
 			remoteInfo = KRProgressHUD;
 		};
-		56E8E9C11BA05EE1C5DB1695CCBF58E4 /* PBXContainerItemProxy */ = {
+		DBEA89CF9E663B95C6F48C0C9DF2B579 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -53,56 +53,56 @@
 /* Begin PBXFileReference section */
 		060E2BC1605AF50B7BAE484282D72753 /* KRActivityIndicatorView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRActivityIndicatorView.release.xcconfig; sourceTree = "<group>"; };
 		0A99A4E9B3D5464F2EB052185AE0DB92 /* KRActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRActivityIndicatorView.swift; path = KRActivityIndicatorView/Classes/KRActivityIndicatorView.swift; sourceTree = "<group>"; };
-		0B6A15CBC3EB95DDD2DCBEA41F973055 /* Pods-DarioHealthDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DarioHealthDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0B266E16938950A0D2582070395E59D6 /* Pods-WorldWeatherAppDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldWeatherAppDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		0B6CDAF6BD46393D72B841F65C12FC7D /* KRProgressHUDViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRProgressHUDViewController.swift; path = KRProgressHUD/Classes/KRProgressHUDViewController.swift; sourceTree = "<group>"; };
-		1B60FF4B0DC26EC8594CBA0783D7B7B5 /* Pods-DarioHealthDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DarioHealthDemo"; path = Pods_DarioHealthDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C33CB84138510317C9CFF8E19C47C23 /* KRProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KRProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C75CEB32604D90628A8BADDC47196FB /* KRProgressHUDIconType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRProgressHUDIconType.swift; path = KRProgressHUD/Classes/KRProgressHUDIconType.swift; sourceTree = "<group>"; };
+		29C2DE95265E9C8169C909B2FC5CABE3 /* Pods-WorldWeatherAppDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WorldWeatherAppDemo"; path = Pods_WorldWeatherAppDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCEB1FCAB0F71B49BD35DF1E2A04084 /* KRProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		33F54FCEBD5646F9209D22D0FEA9419E /* KRProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRProgressHUD.swift; path = KRProgressHUD/Classes/KRProgressHUD.swift; sourceTree = "<group>"; };
-		34C1C80EDD520A7DF5044E0EE4733BC8 /* Pods-DarioHealthDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DarioHealthDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		39EE35DC38DE1E55B14D4D64AC68C3E6 /* Pods-DarioHealthDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DarioHealthDemo.modulemap"; sourceTree = "<group>"; };
-		3CE997CFE235E61CFDF33BC1949486DA /* Pods-DarioHealthDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DarioHealthDemo-frameworks.sh"; sourceTree = "<group>"; };
+		392F35A8ACE48658CB87E0C8BEEDBF64 /* Pods-WorldWeatherAppDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorldWeatherAppDemo-Info.plist"; sourceTree = "<group>"; };
+		3B53453D96B6A921B3A3A8F48CDB6D40 /* Pods-WorldWeatherAppDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorldWeatherAppDemo-dummy.m"; sourceTree = "<group>"; };
 		414BB8BB79A61C51CA21252C85CF4443 /* KRActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
-		4654E3C6482FDC8432E6D9513D34A41D /* Pods-DarioHealthDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DarioHealthDemo-umbrella.h"; sourceTree = "<group>"; };
 		4B122525E27BFF2D769E6EE8C8422D05 /* InnerKRProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InnerKRProgressHUD.swift; path = KRProgressHUD/Classes/InnerKRProgressHUD.swift; sourceTree = "<group>"; };
 		4C3E062D725052AA8F9D84A175A52D7F /* KRActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
 		4FB4A2477C160594FBE3991CB951846E /* KRProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		560A1D20048DDD783FCE6ECB69F6089E /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = KRActivityIndicatorView/Classes/Extensions.swift; sourceTree = "<group>"; };
 		61B899D006E0ED2E36BE59CAEFC00F4A /* KRProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KRProgressHUD.modulemap; sourceTree = "<group>"; };
-		6C8930C93353159BB986A0890B866E77 /* Pods-DarioHealthDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DarioHealthDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6FC97E841C6BD042A7B9A9E6422CD64A /* KRProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73C4BB58463995636C6627189C7A8E6B /* KRActivityIndicatorViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRActivityIndicatorViewStyle.swift; path = KRActivityIndicatorView/Classes/KRActivityIndicatorViewStyle.swift; sourceTree = "<group>"; };
 		88EB08ED54AEB1E3E9E26E519621F36F /* KRActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
-		8A9491088AD0BCB611269297BDA5364F /* Pods-DarioHealthDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DarioHealthDemo-dummy.m"; sourceTree = "<group>"; };
 		9258ECC23A4C8B0274C7A6DF69DDFE95 /* KRActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KRActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95100D74658D92F6F809E02100B6D418 /* Pods-WorldWeatherAppDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WorldWeatherAppDemo.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B10C4EB8C649E4C51E2D5E8E64C5DCEF /* KRProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRProgressHUD.release.xcconfig; sourceTree = "<group>"; };
-		BB216DE13CB40874B5FDB81BD97AC09D /* Pods-DarioHealthDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DarioHealthDemo-Info.plist"; sourceTree = "<group>"; };
+		B1DC22D52158E9B51B1A3A3CD842DF6B /* Pods-WorldWeatherAppDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorldWeatherAppDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		B35CD9F0CC4016C5835DB7D09A373A80 /* Pods-WorldWeatherAppDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldWeatherAppDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B700C719DF87045F69CD45148F90378C /* Pods-WorldWeatherAppDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorldWeatherAppDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C675F44F1CE7B8C65D8512BECBDF315D /* Pods-WorldWeatherAppDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorldWeatherAppDemo-umbrella.h"; sourceTree = "<group>"; };
 		CAB993BB47D9687A3C1D6237069B52F4 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = KRProgressHUD/Classes/Extensions.swift; sourceTree = "<group>"; };
 		D38BD5D563142CB0EB3423C427A29D2B /* KRActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KRActivityIndicatorView.modulemap; sourceTree = "<group>"; };
 		E26F1B8E4365B99C12B7C96267D1D221 /* KRProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KRProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		E283FD1CD0043F1600792133F91E9DAA /* KRActivityIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KRActivityIndicatorView-Info.plist"; sourceTree = "<group>"; };
 		E3A74383EA15AE7F3F651591E3766166 /* KRActivityIndicatorView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRActivityIndicatorView.debug.xcconfig; sourceTree = "<group>"; };
 		E70566F6AA938658E7C92C8C57250D07 /* KRProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		F231747BB64D6518F901178C1A9A6E51 /* Pods-DarioHealthDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DarioHealthDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FDBF99040F8EC3E1CEA60891092B011D /* Pods-WorldWeatherAppDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldWeatherAppDemo-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5FC64450962D268E75CA915945C4F5BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04C33A09466F19D1F5767F6BC08DD73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8AB39F144A72F040D2C21D2F2A3CA138 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				227F575C7A4BA4B60D7CED084C9B4A3C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94E04828A879B5EACCF1A844B64FBD7E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC8689F77DEDDD43C6EFA5FD9DAF67D6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +132,23 @@
 			path = "../Target Support Files/KRProgressHUD";
 			sourceTree = "<group>";
 		};
+		11BE5A02ED1941DF0B0B805DEE8F625E /* Pods-WorldWeatherAppDemo */ = {
+			isa = PBXGroup;
+			children = (
+				95100D74658D92F6F809E02100B6D418 /* Pods-WorldWeatherAppDemo.modulemap */,
+				B700C719DF87045F69CD45148F90378C /* Pods-WorldWeatherAppDemo-acknowledgements.markdown */,
+				B1DC22D52158E9B51B1A3A3CD842DF6B /* Pods-WorldWeatherAppDemo-acknowledgements.plist */,
+				3B53453D96B6A921B3A3A8F48CDB6D40 /* Pods-WorldWeatherAppDemo-dummy.m */,
+				FDBF99040F8EC3E1CEA60891092B011D /* Pods-WorldWeatherAppDemo-frameworks.sh */,
+				392F35A8ACE48658CB87E0C8BEEDBF64 /* Pods-WorldWeatherAppDemo-Info.plist */,
+				C675F44F1CE7B8C65D8512BECBDF315D /* Pods-WorldWeatherAppDemo-umbrella.h */,
+				0B266E16938950A0D2582070395E59D6 /* Pods-WorldWeatherAppDemo.debug.xcconfig */,
+				B35CD9F0CC4016C5835DB7D09A373A80 /* Pods-WorldWeatherAppDemo.release.xcconfig */,
+			);
+			name = "Pods-WorldWeatherAppDemo";
+			path = "Target Support Files/Pods-WorldWeatherAppDemo";
+			sourceTree = "<group>";
+		};
 		133DDD66449356413513E9B2C8FDA187 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +162,16 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/KRActivityIndicatorView";
+			sourceTree = "<group>";
+		};
+		23805E53FB43F27B05BA58736C7554DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9258ECC23A4C8B0274C7A6DF69DDFE95 /* KRActivityIndicatorView.framework */,
+				1C33CB84138510317C9CFF8E19C47C23 /* KRProgressHUD.framework */,
+				29C2DE95265E9C8169C909B2FC5CABE3 /* Pods-WorldWeatherAppDemo */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		4D4FFA5A8CE6953C028B41D162567DFC /* Pods */ = {
@@ -162,31 +189,6 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		6D3F3B2B7CC9343FB2D22FFFFA907660 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AF2073282B32F4B8F23498486F411147 /* Pods-DarioHealthDemo */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		AF2073282B32F4B8F23498486F411147 /* Pods-DarioHealthDemo */ = {
-			isa = PBXGroup;
-			children = (
-				39EE35DC38DE1E55B14D4D64AC68C3E6 /* Pods-DarioHealthDemo.modulemap */,
-				F231747BB64D6518F901178C1A9A6E51 /* Pods-DarioHealthDemo-acknowledgements.markdown */,
-				34C1C80EDD520A7DF5044E0EE4733BC8 /* Pods-DarioHealthDemo-acknowledgements.plist */,
-				8A9491088AD0BCB611269297BDA5364F /* Pods-DarioHealthDemo-dummy.m */,
-				3CE997CFE235E61CFDF33BC1949486DA /* Pods-DarioHealthDemo-frameworks.sh */,
-				BB216DE13CB40874B5FDB81BD97AC09D /* Pods-DarioHealthDemo-Info.plist */,
-				4654E3C6482FDC8432E6D9513D34A41D /* Pods-DarioHealthDemo-umbrella.h */,
-				6C8930C93353159BB986A0890B866E77 /* Pods-DarioHealthDemo.debug.xcconfig */,
-				0B6A15CBC3EB95DDD2DCBEA41F973055 /* Pods-DarioHealthDemo.release.xcconfig */,
-			);
-			name = "Pods-DarioHealthDemo";
-			path = "Target Support Files/Pods-DarioHealthDemo";
 			sourceTree = "<group>";
 		};
 		C63A58090CDDA2C6CEE1387D654E0EA1 /* KRProgressHUD */ = {
@@ -208,8 +210,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				4D4FFA5A8CE6953C028B41D162567DFC /* Pods */,
-				EE081C1F7AD352165C0F2C0B0026A0F2 /* Products */,
-				6D3F3B2B7CC9343FB2D22FFFFA907660 /* Targets Support Files */,
+				23805E53FB43F27B05BA58736C7554DE /* Products */,
+				F2B0B3688FE82232A5A9B284AE97F7C5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -221,14 +223,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EE081C1F7AD352165C0F2C0B0026A0F2 /* Products */ = {
+		F2B0B3688FE82232A5A9B284AE97F7C5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9258ECC23A4C8B0274C7A6DF69DDFE95 /* KRActivityIndicatorView.framework */,
-				1C33CB84138510317C9CFF8E19C47C23 /* KRProgressHUD.framework */,
-				1B60FF4B0DC26EC8594CBA0783D7B7B5 /* Pods-DarioHealthDemo */,
+				11BE5A02ED1941DF0B0B805DEE8F625E /* Pods-WorldWeatherAppDemo */,
 			);
-			name = Products;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		F5B2CC27A49597D41ED40EC87B858C2E /* KRActivityIndicatorView */ = {
@@ -253,11 +253,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D6D2A6DA53EBB1F2CF3AD43A014DCF6 /* Headers */ = {
+		27290799247D6540C3F4DDAF68CF1A86 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6813F19D644422E38F3B30A649AE2202 /* Pods-DarioHealthDemo-umbrella.h in Headers */,
+				16F1935DCCFDD55566A0BDD515A3F507 /* Pods-WorldWeatherAppDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,24 +290,24 @@
 			productReference = 9258ECC23A4C8B0274C7A6DF69DDFE95 /* KRActivityIndicatorView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7F7C534F9C9B742B0B3FF259FA452C56 /* Pods-DarioHealthDemo */ = {
+		A14A777FCB864AA2A737A82E82F7A4F2 /* Pods-WorldWeatherAppDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D830AB134F5296601078B0064E981E3F /* Build configuration list for PBXNativeTarget "Pods-DarioHealthDemo" */;
+			buildConfigurationList = E78F850284895DF32FA94C2D907F65B9 /* Build configuration list for PBXNativeTarget "Pods-WorldWeatherAppDemo" */;
 			buildPhases = (
-				1D6D2A6DA53EBB1F2CF3AD43A014DCF6 /* Headers */,
-				9336070988CDABDCEC8B9EDC78EAD57A /* Sources */,
-				94E04828A879B5EACCF1A844B64FBD7E /* Frameworks */,
-				7900E72887C3EC3C0ED3A008DAA31597 /* Resources */,
+				27290799247D6540C3F4DDAF68CF1A86 /* Headers */,
+				1007D4DBF881BC4F43E7DDBFC22BCE77 /* Sources */,
+				5FC64450962D268E75CA915945C4F5BB /* Frameworks */,
+				BB622710842F6FE0816AC239BBD13F00 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				31E0D18C8EC7DD7A5710A0B8FE758828 /* PBXTargetDependency */,
-				EC75778090EF07FBBEEDE5972119C0B9 /* PBXTargetDependency */,
+				4289A2F8AEFB9C3AB45CD8F601862DB0 /* PBXTargetDependency */,
+				639CF28027AF4B7B23FE4374E07D0914 /* PBXTargetDependency */,
 			);
-			name = "Pods-DarioHealthDemo";
-			productName = Pods_DarioHealthDemo;
-			productReference = 1B60FF4B0DC26EC8594CBA0783D7B7B5 /* Pods-DarioHealthDemo */;
+			name = "Pods-WorldWeatherAppDemo";
+			productName = Pods_WorldWeatherAppDemo;
+			productReference = 29C2DE95265E9C8169C909B2FC5CABE3 /* Pods-WorldWeatherAppDemo */;
 			productType = "com.apple.product-type.framework";
 		};
 		BA4681533D6AA601F9C9E2A116B7472C /* KRProgressHUD */ = {
@@ -347,13 +347,13 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = EE081C1F7AD352165C0F2C0B0026A0F2 /* Products */;
+			productRefGroup = 23805E53FB43F27B05BA58736C7554DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				4F7A1E5A05AF87570E2873C5F725E2CB /* KRActivityIndicatorView */,
 				BA4681533D6AA601F9C9E2A116B7472C /* KRProgressHUD */,
-				7F7C534F9C9B742B0B3FF259FA452C56 /* Pods-DarioHealthDemo */,
+				A14A777FCB864AA2A737A82E82F7A4F2 /* Pods-WorldWeatherAppDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -366,14 +366,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7900E72887C3EC3C0ED3A008DAA31597 /* Resources */ = {
+		90842901C6BA0BA008A60BD1AA069A01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90842901C6BA0BA008A60BD1AA069A01 /* Resources */ = {
+		BB622710842F6FE0816AC239BBD13F00 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -394,11 +394,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9336070988CDABDCEC8B9EDC78EAD57A /* Sources */ = {
+		1007D4DBF881BC4F43E7DDBFC22BCE77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE24C89F79383DEF116A47F4C17E6196 /* Pods-DarioHealthDemo-dummy.m in Sources */,
+				BB22C22CA8FADC838CE178998B492EFA /* Pods-WorldWeatherAppDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,17 +424,17 @@
 			target = 4F7A1E5A05AF87570E2873C5F725E2CB /* KRActivityIndicatorView */;
 			targetProxy = 0AFDAA5C832E3A39D95B48AF72722D09 /* PBXContainerItemProxy */;
 		};
-		31E0D18C8EC7DD7A5710A0B8FE758828 /* PBXTargetDependency */ = {
+		4289A2F8AEFB9C3AB45CD8F601862DB0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KRActivityIndicatorView;
 			target = 4F7A1E5A05AF87570E2873C5F725E2CB /* KRActivityIndicatorView */;
-			targetProxy = 56E8E9C11BA05EE1C5DB1695CCBF58E4 /* PBXContainerItemProxy */;
+			targetProxy = DBEA89CF9E663B95C6F48C0C9DF2B579 /* PBXContainerItemProxy */;
 		};
-		EC75778090EF07FBBEEDE5972119C0B9 /* PBXTargetDependency */ = {
+		639CF28027AF4B7B23FE4374E07D0914 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KRProgressHUD;
 			target = BA4681533D6AA601F9C9E2A116B7472C /* KRProgressHUD */;
-			targetProxy = 1BE096D73BE9CDC21DA9E6F5C606702F /* PBXContainerItemProxy */;
+			targetProxy = 5C60B1172AB6CDFADC91003315EBEB89 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -707,9 +707,9 @@
 			};
 			name = Release;
 		};
-		6B123939DF7DD43BB66A40BCAA88B93A /* Debug */ = {
+		9568432118103D98FADB6EC89359973D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C8930C93353159BB986A0890B866E77 /* Pods-DarioHealthDemo.debug.xcconfig */;
+			baseConfigurationReference = B35CD9F0CC4016C5835DB7D09A373A80 /* Pods-WorldWeatherAppDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -721,7 +721,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DarioHealthDemo/Pods-DarioHealthDemo-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldWeatherAppDemo/Pods-WorldWeatherAppDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -730,44 +730,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DarioHealthDemo/Pods-DarioHealthDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B5F78A9A7AE75DC39E385F62FA67BBF7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B6A15CBC3EB95DDD2DCBEA41F973055 /* Pods-DarioHealthDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DarioHealthDemo/Pods-DarioHealthDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DarioHealthDemo/Pods-DarioHealthDemo.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldWeatherAppDemo/Pods-WorldWeatherAppDemo.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -781,6 +744,43 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		FD525CE17A609B0284768EF68A3559DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B266E16938950A0D2582070395E59D6 /* Pods-WorldWeatherAppDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldWeatherAppDemo/Pods-WorldWeatherAppDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldWeatherAppDemo/Pods-WorldWeatherAppDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -803,11 +803,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D830AB134F5296601078B0064E981E3F /* Build configuration list for PBXNativeTarget "Pods-DarioHealthDemo" */ = {
+		E78F850284895DF32FA94C2D907F65B9 /* Build configuration list for PBXNativeTarget "Pods-WorldWeatherAppDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B123939DF7DD43BB66A40BCAA88B93A /* Debug */,
-				B5F78A9A7AE75DC39E385F62FA67BBF7 /* Release */,
+				FD525CE17A609B0284768EF68A3559DC /* Debug */,
+				9568432118103D98FADB6EC89359973D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
