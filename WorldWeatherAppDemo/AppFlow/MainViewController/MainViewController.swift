@@ -130,6 +130,7 @@ extension MainViewController: UITableViewDelegate {
         vc.lat = lat
         vc.lon = lon
         vc.cityName = city.name ?? ""
+        self.searchBar.resignFirstResponder()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
@@ -140,6 +141,7 @@ extension MainViewController: UISearchBarDelegate {
         
         if searchText.isEmpty {
             self.weathers = self.tempWeathers
+            searchBar.resignFirstResponder()
             return
         }
         
@@ -153,6 +155,7 @@ extension MainViewController: UISearchBarDelegate {
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         searchBar.text = ""
+        searchBar.resignFirstResponder()
         self.weathers = self.tempWeathers
     }
 }
