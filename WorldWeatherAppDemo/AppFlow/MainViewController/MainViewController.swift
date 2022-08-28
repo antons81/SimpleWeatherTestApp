@@ -16,7 +16,6 @@ final class MainViewController: UIViewController {
     @IBOutlet weak private var switchButton: UISwitch!
     @IBOutlet weak private var metricLabel: UILabel!
     
-    
     // MARK: - Private variables
     private var refreshControl = UIRefreshControl()
     private let viewModel = WeatherViewModel()
@@ -28,6 +27,7 @@ final class MainViewController: UIViewController {
             }
         }
     }
+    
     private var tempWeathers = [CurrentWeather]()
     
     override func viewDidLoad() {
@@ -60,7 +60,6 @@ extension MainViewController {
                                  for: .valueChanged)
         self.switchButton.isOn = UserDefaults.isImperial
         self.title = "World Weather App"
-        
     }
     
     fileprivate func showErrorAlert() {
@@ -96,7 +95,6 @@ extension MainViewController {
         }
     }
 }
-
 
 extension MainViewController: UITableViewDataSource {
     
