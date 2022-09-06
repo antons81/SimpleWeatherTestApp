@@ -60,6 +60,9 @@ extension MainViewController {
                                  for: .valueChanged)
         self.switchButton.isOn = UserDefaults.isImperial
         self.title = "World Weather App"
+        
+        searchBar.layer.borderWidth = 1
+        searchBar.layer.borderColor = UIColor.white.cgColor
     }
     
     fileprivate func showErrorAlert() {
