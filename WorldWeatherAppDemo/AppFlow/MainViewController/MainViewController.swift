@@ -142,7 +142,6 @@ extension MainViewController: UISearchBarDelegate {
         
         if searchText.isEmpty {
             self.weathers = self.tempWeathers
-            searchBar.resignFirstResponder()
             return
         }
         
