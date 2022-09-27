@@ -1,6 +1,6 @@
 //
 //  ListWeatherModel.swift
-//  DarioHealthDemo
+//  WorldWeatherAppDemo
 //
 //  Created by Anton Stremovskiy on 25.07.2022.
 //
