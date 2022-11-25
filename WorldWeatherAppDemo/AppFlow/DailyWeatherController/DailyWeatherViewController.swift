@@ -21,31 +21,6 @@ final class DailyWeatherViewController: UIViewController {
     
     // MARK: - Private variables
     private let viewModel = DailyWeatherViewModel()
-    private var weathers = WeatherList() {
-        didSet {
-            let newData = Dictionary(grouping: self.weathers,
-                                     by: { Date(timeIntervalSince1970: TimeInterval($0.dt ?? 0))
-                .dateToString(with: "yyyy-MM-dd") })
-            
-            self.weathers.removeAll()
-            for (_ , value) in newData {
-                if let value = value.first {
-                    self.weathers.append(value)
-                }
-            }
-            
-            self.weathers = self.weathers.sorted {
-                Date(timeIntervalSince1970: TimeInterval($0.dt ?? 0)).compare(Date(timeIntervalSince1970: TimeInterval($1.dt ?? 0))) == .orderedAscending
-            }
-            
-            self.weathers = Array(self.weathers.dropFirst())
-            
-            mainThread {
-                self.tableView.reloadData()
-            }
-        }
-    }
-    
     private var singleWeather: ListWeatherModel? {
         didSet {
             mainThread {
@@ -72,29 +47,6 @@ final class DailyWeatherViewController: UIViewController {
     }
 }
 
-extension DailyWeatherViewController: UITableViewDataSource {
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.weathers.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(indexPath: indexPath) as WeatherCell
-        return cell
-    }
-}
-
-extension DailyWeatherViewController: UITableViewDelegate {
-    
-    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        if let cell = cell as? WeatherCell {
-            let weather = self.weathers[indexPath.row]
-            let isImperial = UserDefaults.isImperial
-            cell.setupCurrentWeather(weather, isImperial: isImperial)
-        }
-    }
-}
-
 extension DailyWeatherViewController {
     
     fileprivate func showErrorAlert() {
@@ -107,17 +59,11 @@ extension DailyWeatherViewController {
     
     fileprivate func binds() {
         viewModel.weathers.bind { [weak self] weathers in
-            guard let weathers = weathers else {
-                mainThread {
-                    self?.showErrorAlert()
-                    KRProgressHUD.dismiss()
-                }
-                return
+            self?.singleWeather = weathers?.first
+            mainThread {
+                self?.tableView.reloadData()
+                KRProgressHUD.dismiss()
             }
-            
-            self?.singleWeather = weathers.first
-            self?.weathers = weathers
-            KRProgressHUD.dismiss()
         }
     }
     
@@ -130,6 +76,8 @@ extension DailyWeatherViewController {
         self.tableView.estimatedRowHeight = 80
         self.tableView.rowHeight = UITableView.automaticDimension
         self.tableView.registerCellNib(WeatherCell.self)
+        self.tableView.dataSource = viewModel
+        self.tableView.delegate = viewModel
         self.name.text = self.cityName
         self.title = self.cityName
     }
