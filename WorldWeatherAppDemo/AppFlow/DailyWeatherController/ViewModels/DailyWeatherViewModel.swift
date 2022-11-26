@@ -14,6 +14,8 @@ final class DailyWeatherViewModel: NSObject {
     
     // MARK: - Observers
     var weathers: ObservableObject<WeatherList> = ObservableObject(nil)
+    var singleDay: ObservableObject<ListWeatherModel> = ObservableObject(nil)
+    
     private var currentWeathers = WeatherList() {
         didSet {
             let newData = Dictionary(grouping: self.currentWeathers,
@@ -31,7 +33,7 @@ final class DailyWeatherViewModel: NSObject {
                 Date(timeIntervalSince1970: TimeInterval($0.dt ?? 0)).compare(Date(timeIntervalSince1970: TimeInterval($1.dt ?? 0))) == .orderedAscending
             }
             
-            //self.currentWeathers = Array(self.currentWeathers.dropFirst())
+            self.currentWeathers = Array(self.currentWeathers.dropFirst())
             self.weathers.value = self.currentWeathers
         }
     }
@@ -42,6 +44,7 @@ final class DailyWeatherViewModel: NSObject {
                                               lon: lon,
                                               lat: lat) { [weak self] weathers in
             self?.currentWeathers = weathers
+            self?.singleDay.value = weathers.first
         } errorCompletion: { _ in
             self.weathers.value = nil
         }

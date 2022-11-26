@@ -58,12 +58,16 @@ extension DailyWeatherViewController {
     }
     
     fileprivate func binds() {
+        
         viewModel.weathers.bind { [weak self] weathers in
-            self?.singleWeather = weathers?.first
             mainThread {
                 self?.tableView.reloadData()
                 KRProgressHUD.dismiss()
             }
+        }
+        
+        viewModel.singleDay.bind { singleDay in
+            self.singleWeather = singleDay
         }
     }
     
@@ -81,4 +85,6 @@ extension DailyWeatherViewController {
         self.name.text = self.cityName
         self.title = self.cityName
     }
+    
+    
 }
