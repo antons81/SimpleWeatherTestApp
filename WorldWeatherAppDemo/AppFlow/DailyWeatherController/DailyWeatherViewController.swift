@@ -58,7 +58,6 @@ extension DailyWeatherViewController {
     }
     
     fileprivate func binds() {
-        
         viewModel.weathers.bind { [weak self] weathers in
             mainThread {
                 self?.tableView.reloadData()

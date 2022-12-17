@@ -7,12 +7,12 @@
 
 import UIKit
 
-enum EndPoints {
+private enum EndPoints {
     case weather
     case forecast
 }
 
-extension EndPoints {
+private extension EndPoints {
     var endPoint: String {
         switch self {
         case .weather: return "/data/2.5/weather"
@@ -43,7 +43,9 @@ final class NetworkManager {
                         return
                     }
                 } else {
-                    if let response = try? JSONDecoder().decode(model, from: data, keyPath: key ?? "") {
+                    if let response = try? JSONDecoder().decode(model,
+                                                                from: data,
+                                                                keyPath: key ?? "") {
                         completion?(response)
                         return
                     }
