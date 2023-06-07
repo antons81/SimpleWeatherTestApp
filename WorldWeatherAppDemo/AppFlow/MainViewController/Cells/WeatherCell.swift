@@ -15,6 +15,14 @@ final class WeatherCell: UITableViewCell, NibReusable {
     @IBOutlet weak private var minTemp: UILabel!
     @IBOutlet weak private var maxTemp: UILabel!
     @IBOutlet weak private var icon: UIImageView!
+    @IBOutlet weak private var mainView: UIView!
+    
+    override func awakeFromNib() {
+        mainView.layer.masksToBounds = false
+        mainView.layer.shadowOffset = CGSize(width: 0, height: 0)
+        mainView.layer.shadowRadius = 2
+        mainView.layer.shadowOpacity = 0.5
+    }
     
     func setupCell(_ data: CurrentWeather, isImperial: Bool) {
         guard let weather = data.weather?.first else { return }
