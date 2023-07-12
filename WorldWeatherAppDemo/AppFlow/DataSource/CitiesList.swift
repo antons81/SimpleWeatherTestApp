@@ -31,7 +31,6 @@ extension CitiesList {
     
     var name: String {
         switch self {
-            
         case .london:
             return "London"
         case .telAviv:
